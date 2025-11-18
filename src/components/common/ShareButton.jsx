@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Share2, Check, Copy } from "lucide-react";
 
 // URL Vercel Anda
-const BASE_URL = "https://myresep-ten.vercel.app";
+const BASE_URL = "https://ppb-mod-5-kel-14.vercel.app";
 
 export default function ShareButton({ recipeId, recipeName }) {
   const [copied, setCopied] = useState(false);
